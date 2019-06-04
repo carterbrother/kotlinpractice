@@ -1,0 +1,2 @@
+# kotlinpractice
+kotlin basic code 
