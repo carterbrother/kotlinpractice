@@ -1,5 +1,8 @@
 package com.kotlin.demo
 
+//import com.kotlin.demo2.multi
+import com.kotlin.demo2.multi as myMulti
+
 /**
  * 作者:     carter
  * 创建日期:  2019/6/8 上午8:20
@@ -60,6 +63,16 @@ fun main(args: Array<String>) {
     println(e)
 
 
+//    println( multi(100,3))
+    println( myMulti(100,3))
+
+
+    println("======")
+    val m = intArrayOf(2,3,4)
+//    m= intArrayOf(45,6,7)
+
+    m.set(0,100)
+    m.forEach { println(it) }
 
 
 
